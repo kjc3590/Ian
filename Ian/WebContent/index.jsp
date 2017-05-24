@@ -8,18 +8,13 @@
 <title>Insert title here</title>
 
 <meta content="width=device-width, initial-scale=1" name="viewport">
-
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/ionicons.min.css">
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
-
 </head>
-
 <body>
-
-
 
 	<div id="wrap">
 		<%@ include file="/include/header.jsp"%>
