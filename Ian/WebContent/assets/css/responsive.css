@@ -1,0 +1,40 @@
+
+/* @media screen and (min-width: 721px) and (max-width:725px) {
+.description h1:after {
+		bottom:140px;
+	}
+}
+ */
+ 
+ 
+@media screen and (max-width:768px) {
+	.navbar-header {
+		padding-top:19px;
+	}
+	
+	.navbar-default .navbar-brand {
+	
+		padding-top:0px;
+	}
+	
+	#footer {
+	
+		padding-top:15px;
+	}
+}
+ 
+ 
+
+ 
+ @media screen and (min-width:769px) {
+ 	.navbar-nav {
+ 		padding-right:40px;
+ 	} 	
+ 	
+.navbar-nav>li {
+	/* width: 140px; */
+	text-align: center;
+	
+}
+ 	
+ }
