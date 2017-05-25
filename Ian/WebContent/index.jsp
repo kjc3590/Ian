@@ -18,8 +18,7 @@
 	<div id="wrap">
 		<%@ include file="/include/header.jsp"%>
 		<div class="container" id="container">
-			<div id="carousel-example-generic" class="carousel slide"
-				data-ride="carousel">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
 					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
