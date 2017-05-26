@@ -98,7 +98,7 @@
 	<script src="assets/js/jquery-1.9.1.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/soda.js"></script>
-		<script src="assets/js/sidebar.js"></script>
+
 </body>
 
 </html>

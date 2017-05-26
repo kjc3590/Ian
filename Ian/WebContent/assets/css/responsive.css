@@ -400,7 +400,7 @@
 
 @media screen and (max-width:767px) {
 	.navbar-default .navbar-collapse {
-		display: block;
+		display: none;
 		border: transparent;
 	}
 	.navbar-collapse  .main-sub {
