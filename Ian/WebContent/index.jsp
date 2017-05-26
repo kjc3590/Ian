@@ -15,8 +15,8 @@
 <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-	<div id="wrap">
 		<%@ include file="/include/header.jsp"%>
+	<div id="wrap">
 		<div class="container" id="container">
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 				<!-- Indicators -->
@@ -30,7 +30,7 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="assets/images/bba.png" alt="...">
+						<img src="assets/images/목뉴방.png" alt="...">
 						<div class="in-content">
 							<p style="margin-top: 20px;">
 								유앤미 클리닉 청담점<br>YOU & ME HEALTH BEAUTY CLINIC
@@ -98,6 +98,7 @@
 	<script src="assets/js/jquery-1.9.1.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/soda.js"></script>
+		<script src="assets/js/sidebar.js"></script>
 </body>
 
 </html>

@@ -10,11 +10,12 @@
 		</div>
 
 
+	
 		<div class="collapse navbar-collapse js-navbar-collapse">
+			 
 			  <p class="main-sub">
           <a href="port.jsp"> <span class="al2">SITEMAP </span></a> | <a href="port.jsp"><span class="al"> ADMIN</span></a>
          </p>
-			
 			<ul class="nav navbar-nav">
 				<li><a id="homemove" href="index.jsp">HOME</a>
 					
@@ -35,6 +36,8 @@
 					</li>
 			</ul>
 		</div>
+	
+		
 		<!-- /.nav-collapse -->
 	
 </nav>
