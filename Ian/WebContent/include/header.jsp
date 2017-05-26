@@ -5,8 +5,9 @@
 	
 		<div class="navbar-header">
 
-			<a class="navbar-brand" href="index.jsp"><img
-				src="assets/images/ian-header.png" alt="..."></a>
+			<a class="navbar-brand" href="index.jsp">
+</a><a class="navbar-brandr" href="index.jsp">
+</a>
 		</div>
 
 

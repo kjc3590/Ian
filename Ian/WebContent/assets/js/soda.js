@@ -6,4 +6,9 @@ jQuery(window).on('load', function(){
 		$('.carousel-inner>.a3').attr('src','2.jpg');
 		$('.carousel-inner>.a4').attr('src','2.jpg');
 	}
+	
+	$('.navbar-default .navbar-brandr').cliced {
+		
+	}
+	
 });

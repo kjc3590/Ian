@@ -350,91 +350,95 @@
 	}
 }
 
-
 /* 아이패드  */
 @media screen and (width:768px) and (height:1024px) {
 	.navbar-header {
-		margin-left:20px;
+		margin-left: 20px;
 	}
-	
 	.navbar-default img {
-		margin-right:15px;
-		width:120px;
+		margin-right: 15px;
+		width: 120px;
 	}
-	
 	.carousel-inner>.item>img {
-		min-height:670px;
+		min-height: 670px;
 	}
-	
 	.mgb-25 {
-		margin-bottom:55px;
+		margin-bottom: 55px;
 	}
-	
 	#footer {
-		height:76px;
+		height: 76px;
 	}
-	
 	.item .in-content {
-		margin-top:-27.2%;
+		margin-top: -27.2%;
 	}
-	
 	.in-content .viewmore {
-		height:27%;
+		height: 27%;
 	}
 }
 
-
-
 /* 아이패드  */
 @media screen and (width:1024px) and (height:1366px) {
-	
-		.mgb-25 {
-			margin-bottom:55px;
-		}
-		
-		.carousel-inner>.item>img {
-			min-height:860px;
-		}
-		
-		#footer {
-			height:76px;
-		}
+	.mgb-25 {
+		margin-bottom: 55px;
 	}
-
-
+	.carousel-inner>.item>img {
+		min-height: 860px;
+	}
+	#footer {
+		height: 76px;
+	}
+}
 
 @media screen and (min-width:768px) and (max-width:991px) {
 	.navbar-default img {
-		width:120px;
+		width: 120px;
 	}
-	
 	.navbar-header {
-		margin-left:20px;
+		margin-left: 20px;
 	}
-	
 }
 
 @media screen and (max-width:767px) {
 	.navbar-default .navbar-collapse {
-		display:block;
-		border:transparent;
+		display: block;
+		border: transparent;
 	}
-	
 	.navbar-collapse  .main-sub {
-		display:none;
+		display: none;
 	}
-	
 	.navbar-default .navbar-nav>li>a {
-		margin-left:0px;
+		margin-left: 0px;
+		border: 2px solid rgba(156, 188, 128, 0.21);
+	}
+	.navbar-nav {
+		margin: 0px 0px 20px;
+		width: 100%;
+	}
+	.navbar-header {
+		margin-left: 0;
+		margin-bottom: 40px;
+	}
+	.navbar-default .navbar-brand {
+		float: left;
+		margin-left:15px;
 	}
 	
-	.navbar-nav {
-		margin:0;
-		width:100%;
+	.navbar-default .navbar-brandr {
+		float: right;
+		margin-right:15px;
+		display:block;
 	}
+	
+	#container {
+		padding:0 15px 51px 15px;
+	}
+	
+	#footer {
+		padding:0 15px 0px 15px;
+	}
+	
 	
 }
-
 
 /* 
 @media screen and (max-width:768px) and (max-width:725px) {

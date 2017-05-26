@@ -440,6 +440,7 @@ a {
 /*»õ·Î¿î ½ÃÀÛ*/
 .navbar-header {
 	margin-left: 60px;
+	margin-top:20px;
 }
 
 .navbar-default img {
@@ -1010,9 +1011,22 @@ a {
 
 /**/
 .navbar-default .navbar-brand {
-	float: right;
+	float: none;
+	background:url(../images/ian-header.png) no-repeat;
+	padding:0px 72px 29px;
+	height:53px;
 	
 }
+
+.navbar-default .navbar-brandr {
+	float: none;
+	background:url(../images/justify.png) no-repeat;
+	padding: 0px 23px 29px;
+	height:53px;
+	display:none;
+}
+
+
 
 .footer-area {
 	overflow: hidden;
