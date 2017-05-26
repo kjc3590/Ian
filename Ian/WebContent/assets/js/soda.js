@@ -7,10 +7,4 @@ jQuery(window).on('load', function(){
 		$('.carousel-inner>.a4').attr('src','2.jpg');
 	}
 	
-	$('.navbar-default .navbar-brandr').click(function(){
-		$('.navbar-default .navbar-collapse').css("display","block");
-	});
-		
-	
-	
 });

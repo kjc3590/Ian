@@ -13,6 +13,26 @@
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
+
+<script src="assets/js/jquery-1.9.1.min.js"></script>
+
+<script type="text/javascript">
+	var a = true;
+	
+	function menu33(){
+			if(a==true){
+				jQuery('.navbar-default .navbar-collapse').css("display","block");
+				a = false;
+				console.log(a);
+			}
+			else if(a==false){
+				jQuery('.navbar-default .navbar-collapse').css("display","none");
+				a = true;
+				console.log(a);
+			}
+	}
+</script>
+
 </head>
 <body>
 		<%@ include file="/include/header.jsp"%>

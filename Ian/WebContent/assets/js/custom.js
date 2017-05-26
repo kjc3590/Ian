@@ -2,16 +2,9 @@
 /* jQuery Pre loader
   -----------------------------------------------*/
 
-
 /* Istope Portfolio
 -----------------------------------------------*/
 jQuery(document).ready(function($){
-
-
-
-
-
-
 
 
 	$('.carousel-control').hover(
