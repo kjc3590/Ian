@@ -18,15 +18,14 @@
 
 <script type="text/javascript">
 	var a = true;
-	
 	function menu33(){
 			if(a==true){
-				jQuery('.navbar-default .navbar-collapse').css("display","block");
+				$('.navbar-default .navbar-collapse').css("display","block");
 				a = false;
 				console.log(a);
 			}
 			else if(a==false){
-				jQuery('.navbar-default .navbar-collapse').css("display","none");
+				$('.navbar-default .navbar-collapse').css("display","none");
 				a = true;
 				console.log(a);
 			}
