@@ -1,5 +1,21 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	
+<script type="text/javascript">
+	var a = true;
+	function menu33(){
+			if(a==true){
+				$('.navbar-default .navbar-collapse').css("display","block");
+				a = false;
+				console.log(a);
+			}
+			else if(a==false){
+				$('.navbar-default .navbar-collapse').css("display","none");
+				a = true;
+				console.log(a);
+			}
+	}
+</script>
 		
 <nav class="navbar navbar-default navbar-static mgb-25">
 	<div class="navbar-header">

@@ -16,22 +16,6 @@
 
 <script src="assets/js/jquery-1.9.1.min.js"></script>
 
-<script type="text/javascript">
-	var a = true;
-	function menu33(){
-			if(a==true){
-				$('.navbar-default .navbar-collapse').css("display","block");
-				a = false;
-				console.log(a);
-			}
-			else if(a==false){
-				$('.navbar-default .navbar-collapse').css("display","none");
-				a = true;
-				console.log(a);
-			}
-	}
-</script>
-
 </head>
 <body>
 		<%@ include file="/include/header.jsp"%>
